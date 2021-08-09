@@ -1,0 +1,7 @@
+[submodule "IPNet"]
+	path = IPNet
+	url = https://github.com/bharat-b7/IPNet
+
+[submodule "pifuhd"]
+	path = pifuhd
+	url = https://github.com/facebookresearch/pifuhd
