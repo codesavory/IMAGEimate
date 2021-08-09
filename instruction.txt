@@ -1,0 +1,48 @@
+#create a conda environment
+conda create -n 3dAvatarPipeline python=3.7
+#depending on the cuda version (check - nvcc --version)
+conda install pytorch torchvision torchaudio cudatoolkit=10.1 -c pytorch
+
+#Requirements for PIFuHD
+Pillow                # PIL
+scikit-image          #skimage
+tqdm
+opencv-python         # cv2
+
+#For visualization
+trimesh
+PyOpenGL
+ffmpeg
+freeglut (use sudo apt-get install freeglut3-dev for ubuntu users)
+
+#Download pre-trained model
+sh ./scripts/download_trained_model.sh
+
+#-------------------------------------------------------------------------------
+#Requirements for IPNet
+ipdb
+chumpy
+smplpytorch
+
+cd IPNet
+#Install kaolin
+git clone --recursive https://github.com/NVIDIAGameWorks/kaolin
+cd kaolin
+git checkout v0.1 #checkout to v0.1
+python setup.py develop
+cd ..
+
+#Install MPI mesh library
+cd mesh
+sudo apt-get install libboost-dev #install boost library
+git clone https://github.com/MPI-IS/mesh.git
+BOOST_INCLUDE_DIRS=/path/to/boost/include make all  #use command `whereis boost` to locate path, generally in /usr/include/boost
+make tests #check if installed correctly, might need to reinstall PyOpenGL if you face any errors here
+cd ..
+cd ..
+
+#Download SMPL models
+#Download checkpoints
+
+#-------------------------------------------------------------------------------
+#Download animations from AIST++ or AMASS and extract each frame pose parameters to .npz files
