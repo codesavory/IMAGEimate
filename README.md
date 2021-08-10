@@ -12,3 +12,8 @@ PyTorch : 1.8.1<br />
 
 Follow the [instructions.txt](https://github.com/codesavory/IMAGEimate/blob/main/instruction.txt) to install dependencies and required libraries and download checkpoints<br /> 
 Follow the [run_imageimate.sh](https://github.com/codesavory/IMAGEimate/blob/main/run_imageimate.sh) for how to make modifications to the code and get relevant results
+
+Results - 
+Input Image            |  PIFuHD Mesh | SMPLD Registration | Reposed Animation
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="https://github.com/codesavory/IMAGEimate/blob/main/screenshots/IMG_3392.2.jpg" alt="drawing" width="300" height="400"/> |  <img src="https://github.com/codesavory/IMAGEimate/blob/main/screenshots/pifuhd_meshes.png" alt="drawing" width="300" height="400"/>  | <img src="https://github.com/codesavory/IMAGEimate/blob/main/screenshots/SMPLd_Fit.png" alt="drawing" width="200" height="400"/>  | <img src="https://github.com/codesavory/IMAGEimate/blob/main/screenshots/suriya-fbx-2021-08-04-221707.gif" alt="drawing" width="600" height='400'/> 
