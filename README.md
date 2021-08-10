@@ -2,6 +2,7 @@
 IMAGEimate is an end-to-end pipeline to create realistic animatable 3D avatars from a single image using neural networks. This project is an end-to-end system built using two research works and relevant opensource contributions, so their license and terms follows for this project - 
 1. PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization (CVPR 2020) - https://shunsukesaito.github.io/PIFuHD/
 2. IPNet: Combining Implicit Function Learning and Parametric Models for 3D Human Reconstruction (ECCV 2020) - https://virtualhumans.mpi-inf.mpg.de/ipnet/
+3. AIST++: AIST++ Dance Motion Dataset from 
 
 This project was tested on <br /> 
 OS      : Ubuntu 20.04 LTS  <br /> 
@@ -17,3 +18,5 @@ Results -
 Input Image            |  PIFuHD Mesh | SMPLD Registration | Reposed Animation
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 <img src="https://github.com/codesavory/IMAGEimate/blob/main/screenshots/IMG_3392.2.jpg" alt="drawing" width="300" height="400"/> |  <img src="https://github.com/codesavory/IMAGEimate/blob/main/screenshots/pifuhd_meshes.png" alt="drawing" width="300" height="400"/>  | <img src="https://github.com/codesavory/IMAGEimate/blob/main/screenshots/SMPLd_Fit.png" alt="drawing" width="200" height="400"/>  | <img src="https://github.com/codesavory/IMAGEimate/blob/main/screenshots/suriya-fbx-2021-08-04-221707.gif" alt="drawing" width="500" height='400'/> 
+
+Register for SMPL - Skinned Multi-person Linear Model under https://smpl.is.tue.mpg.de/ and comply with the license terms and download the python models
