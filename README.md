@@ -7,11 +7,13 @@ IMAGEimate is an end-to-end pipeline to create realistic animatable 3D avatars f
 4. SMPL   : Skinned Multi-person Linear Model from MPI, you need to register, accept the license terms and download models - https://smpl.is.tue.mpg.de/
    
 This project was tested on <br /> 
-OS      : Ubuntu 20.04 LTS  <br /> 
-GPU     : Nvidia RTX2060m with driver 470<br /> 
-CUDA    : 10.1<br /> 
-Python  : 3.7<br /> 
-PyTorch : 1.8.1<br /> 
+```
+OS      : Ubuntu 20.04 LTS  
+GPU     : Nvidia RTX2060M with driver 470
+CUDA    : 10.1
+Python  : 3.7
+PyTorch : 1.8.1
+```
 
 Follow the [instructions.txt](https://github.com/codesavory/IMAGEimate/blob/main/instruction.txt) to install dependencies and required libraries and download checkpoints<br /> 
 Follow the [run_imageimate.sh](https://github.com/codesavory/IMAGEimate/blob/main/run_imageimate.sh) for how to make modifications to the code and get relevant results
