@@ -1,0 +1,4 @@
+IPNet/smpl_models/
+results/*
+
+!results/.gitkeep
