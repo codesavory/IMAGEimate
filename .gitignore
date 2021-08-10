@@ -1,4 +1,5 @@
 IPNet/smpl_models/
 results/*
+checkpoints/
 
 !results/.gitkeep
