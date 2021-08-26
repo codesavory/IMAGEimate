@@ -42,7 +42,14 @@ cd ..
 cd ..
 
 #Download SMPL models
+Create account here and accept license and download SMPL models - https://smpl.is.tue.mpg.de/
+
 #Download checkpoints
+Download IPNet weights: https://datasets.d2.mpi-inf.mpg.de/IPNet2020/IPNet_p5000_01_exp_id01.zip
+or IPNet single surface: https://nextcloud.mpi-klsb.mpg.de/index.php/s/4nomcDH8EGwbzNi
+mkdir <IPNet directory>/experiments
+Put the downloaded weights in <IPNet directory>/experiments/
 
 #-------------------------------------------------------------------------------
 #Download animations from AIST++ or AMASS and extract each frame pose parameters to .npz files
+Download dance animations from AIST++ here https://google.github.io/aistplusplus_dataset/download.html and extract poses for each frame to a file
